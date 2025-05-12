@@ -48,7 +48,10 @@ Before you can start developing agents with this kit, you'll need to set up your
     ```bash
     pip install -r requirements.txt
     ```
-    If there is no `requirements.txt`, follow the specific installation instructions provided with the ADK or project.
+    3.a. Install google-adk extensions
+    ```bash
+    pip install 'google-adk[extensions]'
+    ```
 
 ## Setting Environment Variables
 
